@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinary Clinic Management System</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#" class="active"><i class="fa-solid fa-home"></i> Home</a></li>
+                <li><a href="#"><i class="fa-solid fa-calendar-alt"></i> Appointments</a></li>
+                <li><a href="#"><i class="fa-solid fa-shield-cat"></i> DayCare</a></li>
+                <li><a href="#"><i class="fa-solid fa-dog"></i> Patients</a></li>
+                <li><a href="#"><i class="fa-solid fa-file-invoice"></i> Billings</a></li>
+                <li><a href="#"><i class="fa-solid fa-chart-line"> </i> Expenses</a></li>
+                <li><a href="#"><i class="fa-solid fa-users"></i> Employees</a></li>
+                <li><a href="#"><i class="fa-solid fa-cogs"></i> Settings</a></li>
+                <li><a href="#"><i class="fa-solid fa-life-ring"></i> Support</a></li>
+                <li><a href="#"><i class="fa-solid fa-sign-out-alt"></i> Sign-out</a></li>
+            </ul>
+        </nav>
+        <div class="main-content">
+            <header>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search for patients or services">
+                </div>
+                <div class="profile">
+                    <img src="profile.png" alt="Profile Picture">
+                    <span>Dr. Smith</span>
+                </div>
+            </header>
+            <section class="dashboard">
+                <div class="card">
+                    <h3>Upcoming Appointments</h3>
+                    <p>120</p>
+                    <span>4 last confirmed</span>
+                </div>
+                <div class="card">
+                    <h3>Finished Appointments</h3>
+                    <p>72</p>
+                    <span>+3.5% vs last month</span>
+                </div>
+                <div class="card">
+                    <h3>Finance</h3>
+                    <p>$3,450</p>
+                    <span>+5.8% vs last month</span>
+                </div>
+            </section>
+            <section class="actions-chart">
+                <div class="actions">
+                    <div class="action-box row1">
+                        <button>Create Appointment</button>
+                    </div>
+                    <div class="action-box row1">
+                        <button>Add New Patient</button>
+                    </div>
+                    <div class="action-box row2">
+                        <button>Create Expense</button>
+                    </div>
+                    <div class="action-box row2">
+                        <button>Generate Monthly Report</button>
+                    </div>
+                </div>
+                <div class="chart-container">
+                   <h2>Placeholder for Revenue Chart</h2>
+                </div>
+            </section>
+        </div>
+        <aside class="right-panel">
+            <h3>Today's Appointments</h3>
+            <ul>
+                <li>
+                    <p>Injured Examination</p>
+                    <span>10:00 AM - 10:30 AM</span>
+                    <span>Mr. Smith's dog</span>
+                </li>
+                <li>
+                    <p>Dental Cleaning</p>
+                    <span>11:00 AM - 11:30 AM</span>
+                    <span>Ms. Johnson's cat</span>
+                </li>
+                <li>
+                    <p>Digital X-Ray</p>
+                    <span>12:00 PM - 12:30 PM</span>
+                    <span>Mr. Brown's bird</span>
+                </li>
+                <li>
+                    <p>Vaccinations</p>
+                    <span>1:00 PM - 1:30 PM</span>
+                    <span>Mr. Lee's rabbit</span>
+                </li>
+                <li>
+                    <p>Consultation</p>
+                    <span>2:00 PM - 2:30 PM</span>
+                    <span>Ms. Green's cat</span>
+                </li>
+            </ul>
+        </aside>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
